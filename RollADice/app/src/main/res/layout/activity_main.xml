@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.eugenelie.rolladice.MainActivity"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:weightSum="12">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/title"
+        android:text="Welcome to dice rolling game"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="20sp"
+        android:layout_height="0dp"
+        android:background="@android:color/background_dark"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal">
+    </TextView>>
+
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        tools:context="com.example.eugenelie.rolladice.MainActivity"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:weightSum="3"
+        android:background="@color/MyBackGroundColor"
+        android:layout_width="match_parent">
+
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            tools:context="com.example.eugenelie.rolladice.MainActivity"
+            android:orientation="vertical"
+            android:baselineAligned="false"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:weightSum="3">
+            <EditText
+                android:id="@+id/etpl1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Enter name 1">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/bpl1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Player 1 roll">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/tvpl1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:hint="Result"
+                android:textSize="30sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            tools:context="com.example.eugenelie.rolladice.MainActivity"
+            android:orientation="vertical"
+            android:baselineAligned="false"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/etpl2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Enter name 2">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/bpl2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Player 2 roll">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/tvpl2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:hint="Result"
+                android:textSize="30sp">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            tools:context="com.example.eugenelie.rolladice.MainActivity"
+            android:orientation="vertical"
+            android:baselineAligned="false"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/etpl3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Enter name 3">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/bpl3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Player 3 roll">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/tvpl3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="30sp"
+                android:hint="Result"
+                android:gravity="center_vertical|center_horizontal">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/winner"
+        android:text="Winner ???"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:layout_height="0dp"
+        android:background="@android:color/background_dark"
+        android:layout_weight="3"
+        android:gravity="center_vertical|center_horizontal">
+    </Button>>
+
+</LinearLayout>

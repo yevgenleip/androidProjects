@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context="com.example.eugenelie.intentproject.MainActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Hello Yevgen Liepieshkov"
+        android:background="@android:color/holo_red_light"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:elevation="14dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:id="@+id/btn1"
+        android:text="OPEN Second"
+        android:onClick="onOpen"
+        android:background="@android:color/black"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="40sp"
+        android:autoText="false"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:id="@+id/openSearch"
+        android:text="OPEN SEARCH"
+        android:onClick="onOpen1"
+        android:background="@android:color/black"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="40sp" />
+
+
+</LinearLayout>
