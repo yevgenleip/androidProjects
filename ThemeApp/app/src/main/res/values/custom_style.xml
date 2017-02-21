@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="title">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">#ff0000</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">26sp</item>
+
+    </style>
+
+
+    <style name="buttonQuit">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#08ff00</item>
+        <item name="android:textColor">#0004ff</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <style name="buttonQuit.blackGray">
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#8c8c8c</item>
+    </style>
+
+    <style name="MyTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:background">#e7d33b</item>
+    </style>
+
+
+</resources>
