@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LocalizationOfString</string>
+    <string name="HowAreYouToday">Comment vas-tu aujourd\'hui?</string>
+</resources>
